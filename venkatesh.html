@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --text-color: #333;
+            --background-color: #f4f4f4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        h1, h2 {
+            margin-bottom: 1rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 1rem;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+
+        .education {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GANTA VEERA VENKATESH</h1>
+            <h3>Email: venkateshganta875@gmail.com</h3>
+            <h3>Mobile: 6304624821</h3>
+            <h2>Web Developer</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is G.Veera Venkatesh, and I am a recent graduate with a degree in Computer Science and Engineering. I have a strong passion for web development and have honed my skills through various projects and coursework. I am eager to join a company where I can showcase my abilities, learn new technologies, and gain real-time project experience. My ultimate goal is to become one of the top web designers in the industry, contributing to innovative and impactful projects.</p>
+        </section>
+
+       <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span class="skill">HTML</span>
+        <p>Experienced in creating structured, semantic, and accessible HTML code for diverse web applications.</p>
+
+        <span class="skill">CSS</span>
+        <p>Proficient in CSS for crafting responsive, visually appealing designs, including mastery of Flexbox, Grid, and animations.</p>
+
+        <span class="skill">JavaScript</span>
+        <p>Skilled in JavaScript for building dynamic, interactive web pages, with a strong understanding of ES6+ features, DOM manipulation, and event handling.</p>
+
+        <span class="skill">React</span>
+        <p>Experienced in developing modern web applications using React, with a focus on component-based architecture and state management (e.g., Hooks, Redux).</p>
+
+        <span class="skill">Node.js</span>
+        <p>Proficient in building scalable backend services with Node.js, Express, and RESTful APIs, with experience in handling asynchronous operations and database integration.</p>
+
+        <span class="skill">Python</span>
+        <p>Strong foundation in Python for scripting, automation, and data analysis, with experience in libraries like NumPy, Pandas, and TensorFlow for machine learning projects.</p>
+    </div>
+</section>
+
+<style>
+    .skills {
+        display: block;
+    }
+
+    .skill {
+        display: block;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        width: fit-content;
+    }
+</style>
+
+
+            </div>
+</section>
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                   <p><br>
+Project: Benchmarking Probabilistic Deep Learning Methods for License Plate Recognition
+Overview</br>
+<br>
+Key Achievements:</br>
+<p>Advanced AI Implementation: Successfully implemented and compared multiple state-of-the-art probabilistic deep learning models, including Bayesian Neural Networks, Monte Carlo Dropout, and Ensemble Methods.</p><br>
+
+Large-Scale Data Processing: Processed and analyzed a diverse dataset of over 100,000 license plate images, encompassing various lighting conditions, angles, and plate styles.</br><br>
+
+Performance Optimization: Achieved a 15% improvement in recognition accuracy compared to traditional deterministic models, while also providing uncertainty estimates for each prediction.</br><br>
+
+Robust Evaluation Framework: Developed a novel evaluation framework that not only considers accuracy but also assesses the calibration and reliability of uncertainty estimates.</br><br>
+
+Real-World Application: Demonstrated the practical applicability of the best-performing models in a simulated real-time traffic monitoring system.</br><br>
+
+Technical Skills Showcased</br><br>
+Deep Learning Frameworks: TensorFlow, PyTorch</br><br>
+Probabilistic Programming: Pyro, TensorFlow Probability</br><br>
+Computer Vision Techniques: OpenCV, Image Preprocessing</br><br>
+Big Data Processing: Apache Spark</br><br>
+Version Control: Git, GitHub</br><br>
+Cloud Computing: AWS EC2 for large-scale model training</br><br>
+Impact and Results</br><br>
+The project findings were presented at [RVR&JC], receiving positive feedback from industry experts.</br><br>
+Developed a publicly available benchmark dataset and evaluation toolkit, contributing to the broader research community.</br><br>
+The best-performing model achieved 98.5% accuracy with well-calibrated uncertainty estimates, outperforming existing solutions in the field.</br><br>
+Future Directions</br><br>
+This project has laid the groundwork for further research in probabilistic deep learning for computer vision tasks. Future work includes extending the methodology to other domains such as facial recognition and object detection in autonomous vehicles...</br></p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p><br>Emoji Selection Game</br><br>
+Overview:
+Developed an interactive web-based game using HTML, CSS, and JavaScript. The game challenges users' memory and reflexes by displaying a dynamic set of emojis.</br><br> The player must select an emoji that hasn't been selected before, with the game measuring accuracy based on the player's score and the time taken.</br><br>
+
+Key Features:</br><br>
+
+Dynamic Emoji Display: Each round presents a new set of emojis. Players must avoid selecting previously unselected emojis to continue the game.</br><br>
+Score and Time Tracking: The game tracks the player's score, which increases with each correct selection, and monitors the time taken to complete the game, providing an accuracy metric.</br><br>
+User Feedback: Immediate feedback is provided to the player upon making a selection, enhancing engagement and learning.</br><br>
+Responsive Design: The game is fully responsive, ensuring a smooth user experience across different devices.</br><br>
+Technical Skills Demonstrated:</br><br>
+
+Front-End Development:</br><br> Utilized HTML and CSS to structure and style the game, ensuring a clean and visually appealing interface.</br><br>
+JavaScript: Implemented the core game logic, including the dynamic generation of emoji sets, score calculation, and time tracking.</br><br>
+Event Handling: Managed user interactions through event listeners, providing real-time feedback and updating the game state accordingly.</br><br>
+Impact:</br><br>
+
+Enhanced my understanding of JavaScript and DOM manipulation through the development of dynamic content.</br><br>
+Improved problem-solving skills by creating a game that balances difficulty and user engagement.</br><br>
+Future Enhancements:</br><br>
+
+Plan to introduce new levels with increasing difficulty, such as adding more emojis or reducing the time limit.</br><br>
+Explore the integration of a leaderboard to allow players to compare scores and encourage competitive play.</br></p>
+                </div>
+                                  </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p>RVR & JC College of Engineering, Guntur, Andhra Pradesh</p>
+                <p>Graduated: 2025</p>
+                <h3>Intermediate (MPC)</h3>
+                <p>Narayana Junior College, Guntur, Andhra Pradesh</p>
+                <p>Graduated: 2021</p>
+                <h3>10th Class</h3>
+                <p>Intel Public School, Guntur, Andhra Pradesh</p>
+                <p>Graduated: 2019</p>
+            </div>
+        </section> <!-- End of Education Section -->
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 GANTA VEERA VENKATESH. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
